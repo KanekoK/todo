@@ -1,8 +1,10 @@
 <?php
-require './vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $app = new Slim\App();
-$app->get('/', function () {
-    echo "Hello World";
+// ルーティングの読み込み
+$app->get('/', function() {
+    require 'routes/top.php';
 });
+
 $app->run();
