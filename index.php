@@ -1,8 +1,8 @@
 <?php
-require 'vendor/autoload.php';
+require './vendor/autoload.php';
 
-$app = \Slim\App;
-$app->get('/', function() {
-    echo 'Hello world!';
+$app = new Slim\App();
+$app->get('/', function () {
+    echo "Hello World";
 });
 $app->run();

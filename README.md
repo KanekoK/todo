@@ -7,7 +7,21 @@
 - Slim　：　PHPフレームワーク
 - Sass　：　CSSのプリプロセッサ
 
+
+### composerでインストールする準備
+#### composer.jsonの生成
+```bash
+$ composer init
+```
+#### composer.jsonに記述
+```json
+{
+  "require": {
+    "slim/slim": "3.*"
+  }
+}
+```
 ### Slimのインストール
 ```bash
-$ composer require slim/slim "^3.0"
+$ composer update
 ```
