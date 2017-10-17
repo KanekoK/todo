@@ -45,3 +45,17 @@ $routers = glob('./routes/*.router.php');
 $app->run();
 ```
 今回はしないかな？
+
+## gulp導入
+### 準備
+プロジェクトフォルダにて
+```bash
+$ npm init
+```
+
+```bash
+$ npm i -D gulp
+```
+
+### タスクの設定をしていく
+`gulpfile.js`を作成！
