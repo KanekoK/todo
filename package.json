@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/KanekoK/todo#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
